@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: 'https://temphumid.netlify.app/', // Replace with your Netlify domain
+    origin: 'https://temphumid.netlify.app', // Replace with your Netlify domain
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: 'Content-Type, Authorization'
 }));
