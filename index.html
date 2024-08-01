@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-Humid - Monitor Temperature and Humidity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-thermometer" viewBox="0 0 16 16">
+                  <path d="M8 14a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                  <path d="M8 0a2.5 2.5 0 0 0-2.5 2.5v7.55a3.5 3.5 0 1 0 5 0V2.5A2.5 2.5 0 0 0 8 0M6.5 2.5a1.5 1.5 0 1 1 3 0v7.987l.167.15a2.5 2.5 0 1 1-3.333 0l.166-.15z"/>
+                </svg>
+                Temp-Humid
+            </div>
+            <div class="social-media">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#graph">Visuals</a>
+                <a href="#footer">Contact Us</a>
+                <!-- <a href="graphs.html">Graphs</a> -->
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to Temp-Humid</h1>
+                <div class="arrow-down">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+        <section class="dashboard" id="home">
+            <div class="content">
+                <div class="text-content">
+                    <h2>Explore temperature and humidity data with ease....</h2><br>
+                    <p>Temp-Humid is a web application that allows users to monitor temperature and humidity.</p>
+                    <p>As it IoT, reducing human intervention and operational costs.</p><br>
+                    <p>Leveraging the power of IoT, we offer a seamless way to manage robot operations remotely.</p><br>
+                    <p>Our platform allows you to control and monitor mobile robots in real-time through a user-friendly web interface.</p>
+                </div>
+                <div class="image-content">
+                    <img src="https://i.ibb.co/FbH7rWd/final-Humidity-Temperature-Monitoring-using-DHT11-Node-MCU-on-Thing-Speak.jpg" alt="Dashboard Image">
+                </div>
+            </div>
+        </section>
+        <section class="dashboard" id="about">
+            <div class="content">
+                <div class="image-content">
+                    <img src="https://i.ibb.co/3BKsCJ1/sensor.png" alt="sensor" >
+                </div>
+                <div class="text-content">
+                    <h2>About Temp-Humid</h2><br>
+                    <p>Temp-Humid is a platform dedicated to monitoring temperature and humidity data.</p>
+                    <p>We can read temperature and humidity data from DHT11 sensor and upload it to a ThingSpeak cloud using Arduino Uno and ESP8266-01 module.</p><br>
+                    <p>Our team comprises experts in IoT, and software development, all working together to bring you a cutting-edge solution for mobile robot control.</p>
+                </div>
+            </div>
+        </section>
+        <!-- New Visualization Section -->
+        <section class="visualization" id="graph">
+            <div class="visualization-content">
+                <h1>Check Temperature and Humidity Graphs</h1>
+                <p>If you want to explore more about temperature and humidity visualization, click below.</p>
+                <a href="graphs.html" class="btn">Go to Visualization</a>
+            </div>
+        </section>
+        
+    </header>
+    <footer>
+        <div class="footer-content" id="footer">
+           
+            <div class="socialmedia">
+                <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+           
+            
+            <p>&copy; 2024 Temp-Humid. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
